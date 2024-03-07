@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 60px;
+}
+
+.logo{
+    margin-top: 15px;
+    color:white;
+    font-size: x-large;
+}
+
+.menu-container{
+    width:100%;
+    justify-content: space-between;
+    background-color: black;;
+}
+
+.menu-container a.active-menu{
+    background-color: #3665cb;
+
+}
+
+.menu-container a{
+    color:white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 60px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover{
+    color:#3665cb;
+}
+
+section.main{
+    position:relative;
+    min-height: 600px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-chamada{
+    color:white;
+    position:absolute;
+    width: 50%;
+    min-width: 400px;
+    bottom: 10px;
+}
+
+.text-chamada h1{
+    font-size: 60px;
+}
+
+.text-chamada h3{
+    font-size: 30px;
+}
+
+section.produtos{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    color:black;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
